@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./styles/main.css">
+ <title>Ejercicio 3</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#"> Inicio</a></li>
+      <li><a href="#"> Quienes somos</a></li>
+      <li><a href="#"> Contacto</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="contenedor-principal">
+      <div class="contenedor-form">
+        <form action="" id="formulario">
+          <div class="contenedor-titulo">
+            <h1>Salario semanal</h1>
+          </div>
+          <br>
+          <div class="contenedor-horas">
+            <label for="cant-horas"> Ingrese la cantidad de horas:</label>
+            <input name="cant-horas" id="cant-horas" type="number" required>
+          </div>
+          <br>
+          <div class="contenedor-btn">
+            <button id="btn-calcular"> Calcular</button>
+          </div>
+          <br>
+          <div class="contenedor-valor-pagar">
+            <div class="contenedor-subtitulo">
+              <h2>Valor a pagar</h2>
+            </div>
+            <div class="ingresar-valores">
+              <label for="salario-sem"> Salario semanal:</label>
+              <input name="salario-sem" id="salario-sem" type="number" required>
+              <label for="salario-ext"> Salario extra:</label>
+              <input name="salario-ext" id="salario-ext" type="number" required>
+              <label for="total-pagar"> Total a pagar:</label>
+              <input name="total-pagar" id="total-pagar" type="number">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
